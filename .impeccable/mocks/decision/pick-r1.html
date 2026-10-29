@@ -1,0 +1,36 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;font-family:Inter,sans-serif;background:#F5F7FA;color:#1F2433;position:relative}
+.status{display:flex;justify-content:space-between;padding:16px 28px 0;font-size:15px;font-weight:600}
+h1{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:18px 22px 2px}
+small{display:block;font-size:14px;color:#6A7183;margin-left:22px}
+.box{margin:18px 14px 0;background:#fff;border-radius:26px;padding:12px;display:grid;grid-template-columns:repeat(7,1fr);gap:6px;box-shadow:0 10px 30px rgba(31,36,51,.08)}
+.d{height:96px;border-radius:14px;position:relative;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding-bottom:8px;font-size:13px;font-weight:800;color:#1F2433}
+.d.o{background:rgba(182,229,127,.55)}
+.d.t{background:rgba(255,209,102,.9);outline:3px solid #1F2433}
+.d.f{background:rgba(127,211,247,.35)}
+.d .p{width:14px;height:14px;border-radius:50%;background:#fff;margin-bottom:auto;margin-top:12px}
+.leg{display:flex;gap:14px;margin:10px 26px 0;font-size:12px;color:#6A7183;font-weight:600}
+.sec{font-size:18px;font-weight:700;margin:22px 22px 10px}
+.row{margin:0 18px 10px;background:#fff;border-radius:20px;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.ic{width:42px;height:42px;border-radius:14px;flex:none}
+.row b{font-size:15.5px;display:block}.row p{font-size:13px;color:#6A7183;margin-top:2px}
+.pill{margin-left:auto;font-size:12px;font-weight:700;padding:6px 10px;border-radius:99px}
+.fab{position:absolute;right:22px;bottom:34px;width:64px;height:64px;border-radius:22px;background:#1F2433;color:#fff;font-size:34px;display:grid;place-items:center}
+</style></head><body>
+<div class="status"><span>9:41</span><span>●●● ▮</span></div>
+<h1>Amma's week</h1><small>BP tablet · 9:00 am daily</small>
+<div class="box">
+  <div class="d o"><span class="p"></span>M</div><div class="d o"><span class="p"></span>T</div>
+  <div class="d t"><span class="p"></span>W</div><div class="d f">T</div><div class="d f">F</div><div class="d f">S</div><div class="d f">S</div>
+</div>
+<div class="leg"><span>● opened = taken</span><span>today outlined</span></div>
+<div class="sec">Calls today</div>
+<div class="row"><div class="ic" style="background:#FF8FB1"></div><div><b>Amma · BP tablet</b><p>9:00 am</p></div><span class="pill" style="background:#E6F6D3">Taken</span></div>
+<div class="row"><div class="ic" style="background:#7FD3F7"></div><div><b>Nanna · Metformin</b><p>1:30 pm</p></div><span class="pill" style="background:#FFD166">Up next</span></div>
+<div class="row"><div class="ic" style="background:#FF8FB1"></div><div><b>Amma · Vitamin D</b><p>8:00 pm</p></div><span class="pill" style="background:#EEF1F5">Later</span></div>
+<div class="fab">+</div>
+</body></html>

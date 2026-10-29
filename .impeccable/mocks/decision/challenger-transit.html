@@ -1,0 +1,36 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;font-family:Inter,sans-serif;background:#F4F6FB;color:#14213D;position:relative}
+.status{display:flex;justify-content:space-between;padding:16px 28px 0;font-size:15px;font-weight:600}
+h1{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:18px 22px 16px}
+.map{margin:0 14px;background:#14213D;border-radius:26px;padding:18px 16px 14px;color:#fff}
+.hrs{display:flex;justify-content:space-between;font-size:11px;font-weight:600;opacity:.6;margin:0 4px 6px}
+.ln{position:relative;height:56px}
+.ln .bar{position:absolute;left:4px;right:4px;top:26px;height:6px;border-radius:3px}
+.st{position:absolute;top:19px;width:20px;height:20px;border-radius:50%;border:4px solid #fff;background:#14213D}
+.st.on{background:#fff}
+.nm{position:absolute;left:4px;top:0;font-size:13px;font-weight:700}
+.cap{position:absolute;top:42px;font-size:11px;font-weight:600;opacity:.8;transform:translateX(-30%)}
+.sec{font-size:18px;font-weight:700;margin:22px 22px 10px}
+.row{margin:0 18px 10px;background:#fff;border-radius:20px;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.sw{width:10px;height:42px;border-radius:5px;flex:none}
+.row b{font-size:15.5px;display:block}.row p{font-size:13px;color:#5E6A85;margin-top:2px}
+.pill{margin-left:auto;font-size:12px;font-weight:700;padding:6px 10px;border-radius:99px}
+.fab{position:absolute;right:22px;bottom:34px;width:64px;height:64px;border-radius:50%;background:#14213D;color:#fff;font-size:34px;display:grid;place-items:center}
+</style></head><body>
+<div class="status"><span>9:41</span><span>●●● ▮</span></div>
+<h1>Today</h1>
+<div class="map">
+  <div class="hrs"><span>6am</span><span>12pm</span><span>6pm</span><span>11pm</span></div>
+  <div class="ln"><span class="nm">Amma</span><div class="bar" style="background:#E5484D"></div><span class="st on" style="left:58px"></span><span class="cap" style="left:58px">9:00 ✓</span><span class="st" style="left:262px"></span><span class="cap" style="left:262px">8:00 pm</span></div>
+  <div class="ln"><span class="nm">Nanna</span><div class="bar" style="background:#3E63DD"></div><span class="st" style="left:150px;outline:3px solid #F5A524"></span><span class="cap" style="left:150px">1:30 next</span></div>
+</div>
+<div class="sec">Calls today</div>
+<div class="row"><div class="sw" style="background:#E5484D"></div><div><b>Amma · BP tablet</b><p>9:00 am</p></div><span class="pill" style="background:#DDF3E6">Taken</span></div>
+<div class="row"><div class="sw" style="background:#3E63DD"></div><div><b>Nanna · Metformin</b><p>1:30 pm</p></div><span class="pill" style="background:#F5A524">Next</span></div>
+<div class="row"><div class="sw" style="background:#E5484D"></div><div><b>Amma · Vitamin D</b><p>8:00 pm</p></div><span class="pill" style="background:#EBEEF5">Later</span></div>
+<div class="fab">+</div>
+</body></html>

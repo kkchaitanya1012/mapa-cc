@@ -1,0 +1,9 @@
+.DS_Store
+# built installers
+dist/
+# per-machine app settings and keys
+app/config.local.json
+app/config.android.json
+server/.env
+# generated
+graphify-out/

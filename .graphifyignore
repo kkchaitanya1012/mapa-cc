@@ -1,0 +1,30 @@
+# Secrets and local configuration: never part of the graph
+.env
+**/.env
+**/config.local.json
+**/config.android.json
+**/google-services.json
+*.keystore
+*.jks
+
+# Generated, downloaded or bulky
+**/.dart_tool/
+**/.gradle/
+**/ephemeral/
+**/Pods/
+app/assets/fonts/
+*.ttf
+*.apk
+
+# Design scratch (the mockups themselves are kept in design/)
+.impeccable/mocks/
+.impeccable/decision/
+.impeccable/review/
+
+# App-icon images and Flutter template boilerplate (no project knowledge in them)
+*.png
+*.webp
+app/ios/Runner/Assets.xcassets/
+app/android/app/src/main/res/
+app/web/
+app/README.md

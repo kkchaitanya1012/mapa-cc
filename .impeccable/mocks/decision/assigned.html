@@ -1,0 +1,57 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;font-family:Inter,sans-serif;background:#F6FAFD;color:#1E2A44;position:relative}
+.sky{height:330px;background:linear-gradient(180deg,#CFE7F8 0%,#EAF4FB 70%,#F6FAFD 100%);position:relative;overflow:hidden}
+.status{display:flex;justify-content:space-between;padding:16px 28px 0;font-size:15px;font-weight:600}
+.top{display:flex;justify-content:space-between;align-items:center;padding:18px 22px 0}
+.top h1{font-size:30px;font-weight:800;letter-spacing:-.02em}
+.top small{display:block;font-size:14px;font-weight:500;color:#5B6B86;margin-top:2px}
+.avatar{width:40px;height:40px;border-radius:50%;background:#fff;display:grid;place-items:center;font-weight:700;box-shadow:0 2px 10px rgba(30,42,68,.08)}
+.string{position:absolute;bottom:0;left:50%;width:1px;height:150px;background:#1E2A44;opacity:.18;transform-origin:bottom}
+.kite{position:absolute;width:74px;height:74px;transform:rotate(45deg);border-radius:10px;backdrop-filter:blur(8px);box-shadow:0 10px 30px rgba(30,42,68,.12)}
+.kite span{position:absolute;inset:0;display:grid;place-items:center;transform:rotate(-45deg);font-weight:800;font-size:15px;color:#fff}
+.k1{left:58px;top:132px;background:rgba(240,106,155,.85)}
+.k2{left:230px;top:112px;background:rgba(76,195,138,.85)}
+.tail{position:absolute;display:flex;flex-direction:column;gap:5px;align-items:center}
+.tail i{width:12px;height:6px;border-radius:3px;display:block}
+.t1{left:89px;top:222px}.t1 i{background:#F06A9B}
+.t2{left:261px;top:202px}.t2 i{background:#4CC38A}
+.label{position:absolute;font-size:12px;font-weight:600;color:#5B6B86;background:rgba(255,255,255,.7);backdrop-filter:blur(10px);padding:4px 9px;border-radius:99px}
+.l1{left:40px;top:96px}.l2{left:222px;top:76px}
+.list{padding:0 18px}
+.sec{display:flex;justify-content:space-between;align-items:baseline;margin:6px 4px 12px}
+.sec h2{font-size:18px;font-weight:700}.sec a{font-size:14px;font-weight:600;color:#5B6B86}
+.row{background:#fff;border-radius:20px;padding:14px 16px;display:flex;gap:14px;align-items:center;margin-bottom:10px;box-shadow:0 1px 0 rgba(30,42,68,.04),0 8px 24px rgba(30,42,68,.05)}
+.dot{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;font-weight:800;color:#fff;flex:none}
+.row b{font-size:16px;font-weight:700;display:block}
+.row p{font-size:13.5px;color:#5B6B86;margin-top:2px}
+.row q{display:block;font-size:13px;color:#1E2A44;margin-top:6px;font-style:normal}
+.pill{margin-left:auto;font-size:12px;font-weight:700;padding:6px 10px;border-radius:99px;white-space:nowrap}
+.taken{background:#E3F6EC;color:#1F8A55}
+.next{background:#FFB23F;color:#3A2400}
+.later{background:#EEF2F7;color:#5B6B86}
+.fab{position:absolute;right:22px;bottom:34px;width:64px;height:64px;border-radius:22px;background:#1E2A44;color:#fff;font-size:34px;font-weight:300;display:grid;place-items:center;box-shadow:0 14px 30px rgba(30,42,68,.28)}
+</style></head><body>
+<div class="sky">
+  <div class="status"><span>9:41</span><span>●●● ▮</span></div>
+  <div class="top"><div><h1>Today</h1><small>Tue, 27 Oct · 2 people</small></div><div class="avatar">M</div></div>
+  <div class="string" style="transform:rotate(-38deg)"></div>
+  <div class="string" style="transform:rotate(30deg)"></div>
+  <div class="label l1">Amma · 12 days</div>
+  <div class="label l2">Nanna · 5 days</div>
+  <div class="kite k1"><span>A</span></div>
+  <div class="kite k2"><span>N</span></div>
+  <div class="tail t1"><i></i><i></i><i></i><i></i></div>
+  <div class="tail t2"><i></i><i></i></div>
+</div>
+<div class="list">
+  <div class="sec"><h2>Calls today</h2><a>History</a></div>
+  <div class="row"><div class="dot" style="background:#F06A9B">A</div><div><b>Amma · BP tablet</b><p>9:00 am · 1 pill after breakfast</p><q>“Took it with idli, feeling good!”</q></div><span class="pill taken">Taken</span></div>
+  <div class="row"><div class="dot" style="background:#4CC38A">N</div><div><b>Nanna · Metformin</b><p>1:30 pm · 500 mg with lunch</p></div><span class="pill next">Up next</span></div>
+  <div class="row"><div class="dot" style="background:#F06A9B">A</div><div><b>Amma · Vitamin D</b><p>8:00 pm · 1 capsule</p></div><span class="pill later">8:00 pm</span></div>
+</div>
+<div class="fab">+</div>
+</body></html>
