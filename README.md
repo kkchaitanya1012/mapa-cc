@@ -4,6 +4,10 @@
 
 Mapa phones the people you care about so you don't have to remember to. At each scheduled time an AI voice agent calls your parent or patient (English or Telugu), asks about the specific medicine and how they feel, and reports back to you. Reminders are set by chatting ("Amma, BP tablet, 9 am, every day for a month"), not by filling in forms.
 
+[![Mapa: tell it once and it turns your words into a daily call. Click to watch the 30-second launch video.](docs/images/mapa-launch.jpg)](docs/mapa-launch.mp4)
+
+*The caretaker sets a reminder by chatting. Image is a still from the [launch video](docs/mapa-launch.mp4) and shows the design, not a raw device screenshot. [Full walkthrough on YouTube](https://youtu.be/Xg1cCwzkDrE).*
+
 - **Caretaker** uses an iPhone: sets reminders, sees today's calls, call log and alerts.
 - **Recipient** uses an Android phone: pairs once, then answers Mapa's call (full screen, over the lock screen when push is on).
 
