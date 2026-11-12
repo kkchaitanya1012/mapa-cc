@@ -34,3 +34,7 @@ Flutter, FastAPI (Python 3.12), Supabase (Postgres, Auth, Realtime), LiveKit Clo
 ## Secrets
 
 Never committed: `server/.env`, `app/config.local.json`, `app/config.android.json`, the Firebase service-account JSON, `dist/`. Copy the `*.example` files and fill them in.
+
+## License
+
+Apache License 2.0. See `LICENSE` and `NOTICE`.
